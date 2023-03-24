@@ -1,3 +1,16 @@
+# rgudhi 0.2.0
+
+In this minor release, I:
+
+* Added the `persistence_diagram_sample` class;
+* Implemented the Lagragian formulation to compute the Wasserstein barycenters 
+of a sample of persistence diagrams;
+* Fixed CRAN warnings:
+
+    * Incoherence of `autoplot` method implementation following renaming of main 
+argument `x` into `object`.
+    * Rectify an invalid URL pointing to the paper for BIRCH clustering.
+
 # rgudhi 0.1.0
 
 **rgudhi** `v0.1.0` provides an almost full wrapper of the `v3.7.1` of the GUDHI 

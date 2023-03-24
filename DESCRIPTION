@@ -1,6 +1,6 @@
 Package: rgudhi
 Title: An Interface to the GUDHI Library for Topological Data Analysis
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
   person(
     given = "Aymeric", 
@@ -24,18 +24,18 @@ RoxygenNote: 7.2.3
 URL: https://github.com/LMJL-Alea/rgudhi,
         https://lmjl-alea.github.io/rgudhi/
 BugReports: https://github.com/lmjl-alea/rgudhi/issues
-Config/reticulate: list( packages = list( list(package =
-        "scikit-learn", version = "1.2.0"), list(package = "gudhi",
-        version = "3.7.1") ) )
+Config/reticulate: list( packages = list( list(package = "POT", version
+        = "0.8.2"), list(package = "scikit-learn", version = "1.2.0"),
+        list(package = "gudhi", version = "3.7.1") ) )
 Imports: cli, curl, dplyr, fs, ggplot2, purrr, R6, Rdpack (>= 2.4.0),
         reticulate, rlang, tibble, withr
 Suggests: covr, testthat (>= 3.0.0), vdiffr
 Config/testthat/edition: 3
 RdMacros: Rdpack
 NeedsCompilation: no
-Packaged: 2023-01-19 22:28:44 UTC; stamm-a
+Packaged: 2023-03-24 15:18:17 UTC; stamm-a
 Author: Aymeric Stamm [aut, cre] (<https://orcid.org/0000-0002-8725-3654>),
   GUDHI Editorial Board [ctb] (https://gudhi.inria.fr/people/)
 Maintainer: Aymeric Stamm <aymeric.stamm@cnrs.fr>
 Repository: CRAN
-Date/Publication: 2023-01-19 23:30:08 UTC
+Date/Publication: 2023-03-24 15:40:02 UTC
